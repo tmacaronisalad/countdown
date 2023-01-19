@@ -1,0 +1,32 @@
+/*main*/
+#main_area{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1400px;}
+#main_area.wider{width:1400px;}
+	.main_con{min-height:0;padding:0;}
+		/* Numbers */
+		main .h1_title{font-size:75px;line-height:100%;animation-duration:3000ms !important;margin-bottom:40px;}
+		main .h1_title span{display:block;font-size:30px;}
+		main ul li{display:inline-block;font-size:100px;line-height:100%;margin:0 20px;animation-duration:2000ms !important;}
+		main ul .l1{animation-delay:3000ms !important;}
+		main ul .l2{animation-delay:4000ms !important;}
+		main ul .l3{animation-delay:5000ms !important;}
+		main ul .l4{animation-delay:6000ms !important;}
+		main ul .l5{animation-delay:7000ms !important;}
+		main ul .l6{animation-delay:8000ms !important;}
+		main h3{font-size:150px;line-height:100%;animation-duration:4000ms !important;animation-delay:13000ms !important;margin:30px auto 0;}
+		main a{display:block;width:250px;background:#e63838;line-height:60px;color:#fff;text-align:center;margin:30px auto 0;border-radius:40px;animation-duration:2000ms !important;animation-delay:17000ms !important;}
+		main a:hover{background:#38e64d;}
+		main .timer{display:none;}
+		main h2.countdown{font-size:400px;line-height:100%;}
+		main .btn_result{animation-delay:31000ms !important;}
+
+		/* Numbers - Result */
+		main.result .h1_title{font-size:75px;line-height:100%;animation-duration:3000ms !important;margin-bottom:40px;}
+		main.result .h1_title span{display:block;font-size:30px;}
+		main.result ul li{display:block; width:100%; line-height:100%;animation-duration:2000ms !important;margin-bottom:10px; font-size:50px;}
+		main.result ul .l1{animation-delay:3000ms !important;}
+		main.result ul .l2{animation-delay:4000ms !important;}
+		main.result ul .l3{animation-delay:5000ms !important;}
+		main.result ul .l4{animation-delay:7000ms !important;}
+		main.result a{display:block;width:250px;background:#e63838;line-height:60px;color:#fff;text-align:center;margin:30px auto 0;border-radius:40px;animation-duration:2000ms !important;animation-delay:10000ms !important;}
+		main.result a:hover{background:#38e64d;}
+/*end main*/

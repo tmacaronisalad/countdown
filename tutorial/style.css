@@ -1,0 +1,25 @@
+/*main*/
+#main_area{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1200px;}
+#main_area.wider{width:1400px;}
+	.main_con{min-height:0;padding:0;}
+		/* Tutorial */
+		main .h1_title{font-size:75px;line-height:100%;animation-duration:5000ms !important;margin-bottom:40px;}
+		main p{margin-bottom:20px;animation-duration:2000ms !important;}
+		main p.p1{animation-delay:3000ms !important;}
+		main p.p2{animation-delay:5000ms !important;}
+		main p.p3{animation-delay:7000ms !important;}
+		main p.p4{animation-delay:9000ms !important;}
+		main p.p5{animation-delay:11000ms !important;}
+		main a{display:block;width:250px;background:#e63838;line-height:60px;color:#fff;text-align:center;margin:30px auto 0;border-radius:40px;animation-duration:3000ms !important;animation-delay:15000ms !important;}
+		main a:hover{background:#38e64d;}
+
+		/* Continuation */
+		main.continuation .h1_title{font-size:50px;line-height:100%;animation-duration:3000ms !important;}
+		main.continuation ul{margin:30px auto 0;}
+		main.continuation ul li{display:inline-block;vertical-align:top;margin:0 10px;}
+		main.continuation ul li a{display:block;width:250px;line-height:60px;color:#fff;text-align:center;border-radius:40px;animation-duration:1000ms !important;animation-delay:3000ms !important;}
+		main.continuation ul li .btn_letters{background:#e69138;}
+		main.continuation ul li .btn_numbers{background:#2196f3;}
+		main.continuation ul li .btn_conundrum{background:#e63838;}
+		main.continuation ul li a:hover{background:#38e64d !important;}
+/*end main*/

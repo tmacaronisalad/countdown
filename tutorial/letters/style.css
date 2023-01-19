@@ -1,0 +1,43 @@
+/*main*/
+#main_area{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1400px;}
+#main_area.wider{width:1400px;}
+	.main_con{min-height:0;padding:0;}
+		/* Tutorial - Letters */
+		main .h1_title{font-size:50px;line-height:100%;animation-duration:3000ms !important;margin-bottom:40px;}
+		main .main-entry{animation-duration:2000ms !important;animation-delay:3000ms !important;}
+		main p{margin-bottom:20px;}
+		main a{display:block;width:250px;background:#e63838;line-height:60px;color:#fff;text-align:center;margin:30px auto 0;border-radius:40px;}
+		main a:hover{background:#38e64d;}
+
+		/* Tutorial - Letters - Example */
+		main.example .h1_title{font-size:75px;line-height:100%;animation-duration:3000ms !important;margin-bottom:40px;}
+		main.example .h1_title span{display:block;font-size:30px;}
+		main.example ul li{display:inline-block;font-size:150px;line-height:100%;margin:0 10px;animation-duration:2000ms !important;}
+		main.example ul .l1{animation-delay:3000ms !important;}
+		main.example ul .l2{animation-delay:4000ms !important;}
+		main.example ul .l3{animation-delay:5000ms !important;}
+		main.example ul .l4{animation-delay:6000ms !important;}
+		main.example ul .l5{animation-delay:7000ms !important;}
+		main.example ul .l6{animation-delay:8000ms !important;}
+		main.example ul .l7{animation-delay:9000ms !important;}
+		main.example ul .l8{animation-delay:10000ms !important;}
+		main.example ul .l9{animation-delay:11000ms !important;}
+		main.example a{display:block;width:250px;background:#e63838;line-height:60px;color:#fff;text-align:center;margin:30px auto 0;border-radius:40px;animation-duration:2000ms !important;animation-delay:12000ms !important;}
+		main.example a:hover{background:#38e64d;}
+		main.example .timer{display:none;}
+		main.example h2.countdown{font-size:400px;line-height:100%;}
+		main.example .btn_result{animation-delay:31000ms !important;}
+
+		/* Tutorial - Letters - Result */
+		main.result .h1_title{font-size:75px;line-height:100%;animation-duration:3000ms !important;margin-bottom:40px;}
+		main.result .h1_title span{display:block;font-size:30px;}
+		main.result ul{column-count:2;column-gap:50px;}
+		main.result ul li{display:block; width:100%; line-height:100%;animation-duration:2000ms !important;margin-bottom:10px;}
+		main.result ul .l1{animation-delay:3000ms !important;}
+		main.result ul .l2{animation-delay:4000ms !important;}
+		main.result ul .l3{animation-delay:5000ms !important;}
+		main.result ul .l4{animation-delay:6000ms !important;}
+		main.result ul .l5{animation-delay:7000ms !important;}
+		main.result ul .l6{animation-delay:8000ms !important;}
+		main.result ul .l7{animation-delay:9000ms !important;}
+/*end main*/
